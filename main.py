@@ -10,7 +10,7 @@ import rsa
 import sha
 
 class SSHHandler(socketserver.StreamRequestHandler):
-	ID_STR = b"SSH-2.0-DavidSSH_0.0"
+	ID_STR = b"SSH-2.0-DavidSSH_0.0.1"
 
 	SSH_MSG_DISCONNECT				= 0x01
 	SSH_MSG_IGNORE						= 0x02
