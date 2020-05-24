@@ -18,7 +18,7 @@ def multiplicative_inverse(e, phi):
 		x2, x1 = x1, (x2 - temp1 * x1)
 		d, y1 = y1, (d  - temp1 * y1)
     
-	return d + original_phi
+	return d % original_phi
 
 def rabin_miller(p):
 	s = p - 1
